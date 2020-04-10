@@ -18,8 +18,9 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   color: #272a31;
-  overflow-x: hidden;
-  padding: 0 20px;
+  background: url("./assets/images/landing-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -39,6 +40,10 @@ a:hover {
   color: #ec5242;
 }
 
+.p-20 {
+  padding: 0 20px;
+}
+
 .top-header {
   display: none;
 }
@@ -46,7 +51,6 @@ a:hover {
 .ticket {
   border: 3px solid #ec5242;
   background-color: #fff;
-  color: #ec5242;
 }
 
 .ticket:hover {
@@ -71,11 +75,20 @@ a:hover {
   display: block;
 }
 
+.landing-caption {
+  padding-top: 80px;
+  text-align: center;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
   .width-75 {
     width: 75%;
+  }
+
+  .width-50 {
+    width: 50%;
   }
 
   .top-header {
@@ -113,5 +126,14 @@ a:hover {
 
   .nav2 {
     display: block;
+  }
+
+  .landing-caption {
+    padding-top: 200px;
+    height: 100vh;
+  }
+
+  .nav-item {
+    padding-left: 35px;
   }
 }
