@@ -17,6 +17,9 @@ This project involves creating concert page templates which includes the main pa
 - Twitter: [@mupa_mmbetsa](https://twitter.com/mupa_mmbetsa)
 - Linkedin: [mupa-mmbetsa](https://www.linkedin.com/in/mupa-mmbetsa)
 
+## Credits 
+- Core Design By [Cindy Shin in Behance](https://www.behance.net/adagio07) (see [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015))
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
