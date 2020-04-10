@@ -144,6 +144,10 @@ hr {
   text-align: center;
 }
 
+.artists {
+  margin: 50px 0;
+}
+
 .artist1 {
   background-image: url("./assets/images/photo-of-woman-singing-in-music-studio-2531728.jpg");
 }
@@ -256,7 +260,6 @@ hr {
   }
 
   .artists {
-    margin: 50px 0;
     padding: 0;
   }
 }
