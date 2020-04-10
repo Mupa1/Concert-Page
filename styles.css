@@ -172,6 +172,22 @@ hr {
   background-image: url("./assets/images/woman-playing-guitar-while-singing-beside-man-playing-bass-1309240.jpg");
 }
 
+.partner {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
+.partner-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner-box li {
+  font-size: 60px;
+  padding: 0 30px;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
