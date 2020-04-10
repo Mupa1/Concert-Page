@@ -175,6 +175,7 @@ hr {
 .partner {
   background-color: #272a31;
   color: #d3d3d3;
+  padding: 40px 0 10px;
 }
 
 .partner-box {
@@ -186,6 +187,13 @@ hr {
 .partner-box li {
   font-size: 60px;
   padding: 0 30px;
+}
+
+footer {
+  display: flex;
+  height: 150px;
+  justify-content: space-around;
+  padding-top: 50px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
