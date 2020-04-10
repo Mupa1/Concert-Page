@@ -196,6 +196,29 @@ footer {
   padding-top: 50px;
 }
 
+.extra-content {
+  display: none;
+}
+
+/* Tickets Page Section */
+.amount {
+  border: 5px double #ec5242;
+}
+
+main.tickets-page {
+  padding-top: 60px;
+}
+
+.instructions {
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+}
+
+.select-btn {
+  background-color: #ec5242;
+  color: #fff;
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
@@ -285,5 +308,14 @@ footer {
 
   .artists {
     padding: 0;
+  }
+
+  .extra-content {
+    display: block;
+  }
+
+  /* Tickets Section */
+  main.tickets-page {
+    padding-top: 100px;
   }
 }
