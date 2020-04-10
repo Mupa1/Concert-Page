@@ -18,9 +18,6 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   color: #272a31;
-  background: url("./assets/images/landing-banner.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 a {
@@ -78,6 +75,9 @@ a:hover {
 .landing-caption {
   padding-top: 80px;
   text-align: center;
+  background: url("./assets/images/landing-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .main-program {
@@ -125,6 +125,47 @@ hr {
 
 .list3 {
   flex: 3;
+}
+
+.artists-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 400px;
+  gap: 20px;
+}
+
+.artist-img {
+  height: 300px;
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.artist1 {
+  background-image: url("./assets/images/photo-of-woman-singing-in-music-studio-2531728.jpg");
+}
+
+.artist2 {
+  background-image: url("./assets/images/man-in-red-crew-neck-shirt-wearing-black-framed-eyeglasses-3965238.jpg");
+}
+
+.artist3 {
+  background-image: url("./assets/images/man-in-white-tank-top-lying-on-green-grass-field-3779676.jpg");
+}
+
+.artist4 {
+  background-image: url("./assets/images/man-speaking-on-microphone-surrounded-by-people-taking-photo-1238978.jpg");
+}
+
+.artist5 {
+  background-image: url("./assets/images/grayscale-photo-of-man-playing-singing-and-playing-guitar-1563868.jpg");
+}
+
+.artist6 {
+  background-image: url("./assets/images/woman-playing-guitar-while-singing-beside-man-playing-bass-1309240.jpg");
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -207,5 +248,15 @@ hr {
 
   .program-list li {
     padding: 5px;
+  }
+
+  .artists-box {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+  }
+
+  .artists {
+    margin: 50px 0;
+    padding: 0;
   }
 }
