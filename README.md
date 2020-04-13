@@ -11,6 +11,11 @@ This project involves creating concert page templates which includes the main pa
 - CSS
 - Bootstrap
 
+## Getting Started
+
+- git clone git@github.com:Mupa1/Concert-Page.git to your local computer
+- Open index.html and click on about and tickets to access the about page and the ticket page
+
 ## Author
 
 - Github: [@mupa1](https://github.com/Mupa1)

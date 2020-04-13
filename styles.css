@@ -41,31 +41,29 @@ a:hover {
   padding: 0 20px;
 }
 
-.top-header {
+.my-flex {
+  display: flex;
+}
+
+.no-display {
   display: none;
+}
+
+.blackish-bg {
+  background-color: #272a31;
 }
 
 .ticket {
   border: 3px solid #ec5242;
-  background-color: #fff;
 }
 
 .ticket:hover {
   font-weight: bold;
 }
 
-.navbar-toggler {
-  background-color: #fff;
-  border: 0;
-}
-
 .navbar-toggler:focus {
   outline: none;
   border: 0;
-}
-
-.nav2 {
-  display: none;
 }
 
 .nav1 {
@@ -81,8 +79,6 @@ a:hover {
 }
 
 .main-program {
-  color: #fff;
-  background-color: #272a31;
   margin-top: 50px;
   padding: 25px 0;
 }
@@ -99,14 +95,9 @@ hr {
 }
 
 .program {
-  background-color: #272a31;
   filter: brightness(140%);
   margin: 10px;
   padding: 10px 0 3px;
-}
-
-.program-list {
-  display: flex;
 }
 
 .program-list li {
@@ -137,7 +128,6 @@ hr {
 .artist-img {
   height: 90px;
   width: 90px;
-  background-color: #272a31;
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -151,7 +141,6 @@ hr {
 }
 
 .artist {
-  display: flex;
   font-size: 70%;
   position: relative;
 }
@@ -175,7 +164,6 @@ hr {
 .checkers-bg {
   height: 60px;
   width: 60px;
-  background-color: #272a31;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -209,13 +197,11 @@ hr {
 }
 
 .partner {
-  background-color: #272a31;
   color: #d3d3d3;
   padding: 40px 0 10px;
 }
 
 .partner-box {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -231,12 +217,7 @@ footer {
 }
 
 .footer-box {
-  display: flex;
   justify-content: space-around;
-}
-
-.extra-content {
-  display: none;
 }
 
 /* Tickets Page Section */
@@ -255,12 +236,10 @@ main.tickets-page {
 
 .select-btn {
   background-color: #ec5242;
-  color: #fff;
 }
 
 /* About Page */
 .about {
-  background-color: #272a31;
   color: #d3d3d3;
 }
 
