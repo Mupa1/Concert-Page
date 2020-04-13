@@ -130,22 +130,58 @@ hr {
 .artists-box {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 122px;
   gap: 20px;
 }
 
 .artist-img {
-  height: 300px;
-  width: 100%;
+  height: 90px;
+  width: 90px;
   background-color: #272a31;
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
   text-align: center;
+  flex: 0 0 90px;
+  margin: 10px;
 }
 
 .artists {
   margin: 50px 0;
+}
+
+.artist {
+  display: flex;
+  font-size: 70%;
+  position: relative;
+}
+
+.a-title {
+  font-size: 120%;
+}
+
+.a-name {
+  font-size: 150%;
+}
+
+.check-bg {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkers-bg {
+  height: 60px;
+  width: 60px;
+  background-color: #272a31;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  flex: 0 0 60px;
+  margin-right: 50px;
+  background-image: url("./assets/images/checkers1.jpg");
 }
 
 .artist1 {
@@ -185,15 +221,18 @@ hr {
 }
 
 .partner-box li {
-  font-size: 60px;
-  padding: 0 30px;
+  font-size: 50px;
+  padding: 0 25px;
 }
 
 footer {
-  display: flex;
   height: 150px;
+  padding: 50px 20px 0;
+}
+
+.footer-box {
+  display: flex;
   justify-content: space-around;
-  padding-top: 50px;
 }
 
 .extra-content {
@@ -232,6 +271,11 @@ main.tickets-page {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
+  body {
+    max-width: 1310px;
+    margin: auto;
+  }
+
   .width-75 {
     width: 75%;
     margin: auto;
@@ -312,8 +356,9 @@ main.tickets-page {
   }
 
   .artists-box {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto;
+    row-gap: 40px;
   }
 
   .artists {
@@ -322,6 +367,10 @@ main.tickets-page {
 
   .extra-content {
     display: block;
+  }
+
+  .checkers-bg {
+    background-image: url("./assets/images/checkers.jpg");
   }
 
   /* Tickets Section */
