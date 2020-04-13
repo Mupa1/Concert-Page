@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+  font-family: cocogoose;
+  src: url(./assets/fonts/cocogoose.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #272a31;
+}
+
+a {
+  color: #272a31;
+}
+
+a:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.cocogoose {
+  font-family: cocogoose, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reddish {
+  color: #ec5242;
+}
+
+.p-20 {
+  padding: 0 20px;
+}
+
+.my-flex {
+  display: flex;
+}
+
+.no-display {
+  display: none;
+}
+
+.blackish-bg {
+  background-color: #272a31;
+}
+
+.ticket {
+  border: 3px solid #ec5242;
+}
+
+.ticket:hover {
+  font-weight: bold;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  border: 0;
+}
+
+.nav1 {
+  display: block;
+}
+
+.landing-caption {
+  padding-top: 80px;
+  text-align: center;
+  background: url("./assets/images/landing-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.main-program {
+  margin-top: 50px;
+  padding: 25px 0;
+}
+
+.headings {
+  text-align: center;
+}
+
+hr {
+  border: 0.5px solid#ec5242;
+  width: 40px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.program {
+  filter: brightness(140%);
+  margin: 10px;
+  padding: 10px 0 3px;
+}
+
+.program-list li {
+  align-self: center;
+}
+
+.list1 {
+  flex: 1;
+  text-align: center;
+}
+
+.list2 {
+  flex: 1;
+  font-weight: bold;
+}
+
+.list3 {
+  flex: 3;
+}
+
+.artists-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 122px;
+  gap: 20px;
+}
+
+.artist-img {
+  height: 90px;
+  width: 90px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  flex: 0 0 90px;
+  margin: 10px;
+}
+
+.artists {
+  margin: 50px 0;
+}
+
+.artist {
+  font-size: 70%;
+  position: relative;
+}
+
+.a-title {
+  font-size: 120%;
+}
+
+.a-name {
+  font-size: 150%;
+}
+
+.check-bg {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.checkers-bg {
+  height: 60px;
+  width: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  flex: 0 0 60px;
+  margin-right: 50px;
+  background-image: url("./assets/images/checkers1.jpg");
+}
+
+.artist1 {
+  background-image: url("./assets/images/photo-of-woman-singing-in-music-studio-2531728.jpg");
+}
+
+.artist2 {
+  background-image: url("./assets/images/man-in-red-crew-neck-shirt-wearing-black-framed-eyeglasses-3965238.jpg");
+}
+
+.artist3 {
+  background-image: url("./assets/images/man-in-white-tank-top-lying-on-green-grass-field-3779676.jpg");
+}
+
+.artist4 {
+  background-image: url("./assets/images/man-speaking-on-microphone-surrounded-by-people-taking-photo-1238978.jpg");
+}
+
+.artist5 {
+  background-image: url("./assets/images/grayscale-photo-of-man-playing-singing-and-playing-guitar-1563868.jpg");
+}
+
+.artist6 {
+  background-image: url("./assets/images/woman-playing-guitar-while-singing-beside-man-playing-bass-1309240.jpg");
+}
+
+.partner {
+  color: #d3d3d3;
+  padding: 40px 0 10px;
+}
+
+.partner-box {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner-box li {
+  font-size: 50px;
+  padding: 0 25px;
+}
+
+footer {
+  height: 150px;
+  padding: 50px 20px 0;
+}
+
+.footer-box {
+  justify-content: space-around;
+}
+
+/* Tickets Page Section */
+.amount {
+  border: 5px double #ec5242;
+}
+
+main.tickets-page {
+  padding-top: 60px;
+}
+
+.instructions {
+  border: 1px solid #d3d3d3;
+  border-radius: 20px;
+}
+
+.select-btn {
+  background-color: #ec5242;
+}
+
+/* About Page */
+.about {
+  color: #d3d3d3;
+}
+
+.about a {
+  color: #d3d3d3;
+}
+
+.logo-box {
+  width: 280px;
+  padding: 40px 0;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  body {
+    max-width: 1310px;
+    margin: auto;
+  }
+
+  .width-75 {
+    width: 75%;
+    margin: auto;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .top-header {
+    display: block;
+    background-color: #272a31;
+  }
+
+  .top-links {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #272a31;
+    padding-bottom: 30px;
+  }
+
+  .top-links a {
+    color: #fff;
+  }
+
+  .social-links {
+    padding: 5px;
+  }
+
+  .social-links-r {
+    padding-left: 20px;
+  }
+
+  .social-links:hover,
+  .social-links-r:hover {
+    color: #d3d3d3;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 {
+    display: block;
+  }
+
+  .landing-caption {
+    padding-top: 200px;
+    height: 100vh;
+  }
+
+  .nav-item {
+    padding-left: 35px;
+  }
+
+  .main-program {
+    margin-top: 0;
+    padding: 40px 0;
+  }
+
+  .programs-box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program {
+    margin: 2px;
+    flex: 1 1 0;
+  }
+
+  .program-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .program-list li {
+    padding: 5px;
+  }
+
+  .artists-box {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: auto;
+    row-gap: 40px;
+  }
+
+  .artists {
+    padding: 0;
+  }
+
+  .extra-content {
+    display: block;
+  }
+
+  .checkers-bg {
+    background-image: url("./assets/images/checkers.jpg");
+  }
+
+  /* Tickets Section */
+  main.tickets-page {
+    padding-top: 100px;
+  }
+}
