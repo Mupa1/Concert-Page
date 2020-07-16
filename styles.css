@@ -104,6 +104,10 @@ hr {
   padding: 10px 0 3px;
 }
 
+.program:hover {
+  border: 3px solid #fff;
+}
+
 .program-list li {
   align-self: center;
 }
