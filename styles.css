@@ -33,6 +33,10 @@ a:hover {
   font-family: cocogoose, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.nav-logo {
+  max-height: 60px;
+}
+
 .reddish {
   color: #ec5242;
 }
@@ -98,6 +102,10 @@ hr {
   filter: brightness(140%);
   margin: 10px;
   padding: 10px 0 3px;
+}
+
+.program:hover {
+  border: 3px solid #fff;
 }
 
 .program-list li {
