@@ -1,7 +1,7 @@
 # Concert-Page
 This project involves creating concert page templates which includes the main page, the about page and the tickets page
 
-[Live Demo](https://lucid-darwin-900e05.netlify.com/)
+[Live Demo](https://mupa1.github.io/Concert-Page/)
 
 ![screenshot](./assets/images/screenshot.png)
 
