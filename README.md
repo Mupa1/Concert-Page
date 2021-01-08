@@ -1,5 +1,5 @@
 # Concert-Page
-This project involves creating concert page templates which includes the main page, the about page and the tickets page
+This project involves creating concert page templates which include the main page, the about page, and the tickets page.
 
 [Live Demo](https://mupa1.github.io/Concert-Page/)
 
@@ -27,7 +27,7 @@ This project involves creating concert page templates which includes the main pa
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Mupa1/Concert-Page/issues)
 
